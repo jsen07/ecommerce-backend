@@ -79,7 +79,7 @@ router.delete('/:id', async (req, res) => {
       }
     });
     if(!tagDestroy) {
-      res.status(400).send("No Category with that ID");
+      res.status(400).send("No Tag with that ID");
     }; 
     res.status(200).json(tagDestroy)
   } catch (err) {
