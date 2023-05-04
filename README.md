@@ -35,19 +35,20 @@ IMPORTANT
 
 To run the application using VS Code in the terminal you must:
 
-Initialize database using 'develop/db/employees.sql;' im the terminal
-```
-db/employees.sql;
-
-```
-Populate the database by using 'develop/db/seeds.sql;'
-```
-db/seeds.sql;
-
-```
 Install required packages to run the app.
 ```
 npm install
+
+```
+
+Initialize database using 'develop/db/employees.sql;' im the terminal
+```
+source develop/db/employees.sql;
+
+```
+Populate the database by using 'develop/seeds/index.js'
+```
+node develop/seeds/index.js
 
 ```
 Start the application
